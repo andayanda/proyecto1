@@ -1,0 +1,60 @@
+.hero-text{
+    text-align: center;
+    width: 80%;
+    max-width: 320px;
+
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+}
+.big-card{
+    position:relative;  
+    left: 10px;
+    width: 90%;
+    max-width: 350px;
+    opacity: 0.8;
+}
+.hero-card{
+    width: 60%;
+    max-width: 150px;
+
+}
+.hero-card.ok{
+    position: absolute;   
+    
+    bottom: 70px;
+    right: -10px;
+    z-index: 1;
+    opacity: 0.8;
+    
+}
+
+ .hero-card.visa{
+    position: absolute;
+    top: 250px;
+   
+   left: -10px;
+    z-index: 1;
+    opacity: 0.8;
+  }
+
+    .contact{
+        display: flex;
+        justify-content: space-between; 
+        margin: 2em;
+       }
+    .hero-btn{
+        background-color: var(--primary-color);
+        color: var(--text-color-inverse);
+        border: none;
+        padding: 1em;
+        margin-right: 2em;
+       
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #link{
+        margin-top: 1em;
+    }

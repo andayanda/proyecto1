@@ -1,0 +1,34 @@
+:root{
+    --theme-color: #ecf7ff;
+    --primary-color: #072AC8;
+    --secondary-color: #FFC600;
+    --text-color:#514D67;
+    --text-color-inverse:#FFFFFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+   
+    padding-top: 70px; /*el alto del navbar */  
+    
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+h1{
+   font-size: 1.8em;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3{
+    font-size: 18px;   
+}
+h4{
+    font-size: 16px;
+}
