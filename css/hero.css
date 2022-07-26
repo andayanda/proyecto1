@@ -58,3 +58,8 @@
     #link{
         margin-top: 1em;
     }
+    @media  ( min-width: 950px){
+       .hero{
+        display: flex;
+       }
+    }
