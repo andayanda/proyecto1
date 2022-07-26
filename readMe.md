@@ -1,4 +1,4 @@
-Este es mi primer proyecto en IronHack
+Este es mi primer proyecto en IronHack.
 Estoy construyendo un sitio web para una compañía de diseño web ficticia. 
 Esto incluye 3 páginas: 
 • una home
