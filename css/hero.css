@@ -1,65 +1,123 @@
-.hero-text{
-    text-align: center;
-    width: 80%;
-    max-width: 320px;
-
-}
-.hero-image{
-    width: 100%;
-    height: auto;
-}
-.big-card{
-    position:relative;  
-    left: 10px;
-    width: 90%;
-    max-width: 350px;
-    opacity: 0.8;
-}
-.hero-card{
-    width: 60%;
-    max-width: 150px;
-
-}
-.hero-card.ok{
-    position: absolute;   
-    
-    bottom: 70px;
-    right: -10px;
-    z-index: 1;
-    opacity: 0.8;
-    
+.hero {
+  margin-right: 40px;
+  text-align: center;
 }
 
- .hero-card.visa{
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.big-card {
+  position: relative;
+  left: 10px;
+  width: 90%;
+  max-width: 350px;
+  opacity: 0.8;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 120px;
+}
+
+.hero-card.ok {
+  position: absolute;
+  top: 400px;
+
+  right: 80px;
+
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.hero-card.visa {
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.hero-btn {
+  background-color: var(--primary-color);
+  color: var(--text-color-inverse);
+  border: none;
+  padding: 1em;
+  margin-right: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  filter: brightness(130%);
+}
+
+#link {
+  margin-top: 1em;
+}
+
+@media (min-width: 900px) {
+
+  h1 {
+    font-size: 3.75em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  .hero {
+    margin-right: 0;
+
+    width: 1440px;
+    height: 650px;
+  }
+
+  .hero-container {
+    display: flex;
+    margin-left: 170px;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .hero-btn {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 130%;
+  }
+
+  .hero-image {
+    width: 623px;
+    height: 600px;
+  }
+
+  .big-card {
+    position: relative;
+    max-width: fit-content;
+
+  }
+
+  .hero-card {
+    max-width: 190px;
+  }
+
+  .hero-card.visa {
     position: absolute;
-    top: 250px;
-   
-   left: -10px;
+    top: 500px;
+    left: 60px;
     z-index: 1;
     opacity: 0.8;
   }
 
-    .contact{
-        display: flex;
-        justify-content: space-between; 
-        margin: 2em;
-       }
-    .hero-btn{
-        background-color: var(--primary-color);
-        color: var(--text-color-inverse);
-        border: none;
-        padding: 1em;
-        margin-right: 2em;
-       
-        font-weight: bold;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    #link{
-        margin-top: 1em;
-    }
-    @media  ( min-width: 950px){
-       .hero{
-        display: flex;
-       }
-    }
+}

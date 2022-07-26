@@ -7,19 +7,17 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     background-color: var(--theme-color);
     color: var(--text-color);
-   
-    padding-top: 70px; /*el alto del navbar */  
-    
+    padding-top: 70px; /*el alto del navbar */      
 }
 a{
     text-decoration: none;
     color: var(--primary-color);
 }
 h1{
-   font-size: 1.8em;
+   font-size: 2em;
     font-weight: bold;
 }
 h2{
