@@ -76,6 +76,7 @@
 
   .hero {
     margin-right: 0;
+    margin-top: 100px;
 
     width: 1440px;
     height: 650px;
@@ -98,6 +99,7 @@
   }
 
   .hero-image {
+    position: relative;
     width: 623px;
     height: 600px;
   }
@@ -114,10 +116,15 @@
 
   .hero-card.visa {
     position: absolute;
-    top: 500px;
-    left: 60px;
+    top: -20px;
+ left: -40px;
     z-index: 1;
     opacity: 0.8;
+  }
+  #ok{
+    position: absolute;
+    bottom: 60px;
+  right: -50px;
   }
 
 }
