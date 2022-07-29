@@ -1,7 +1,11 @@
 .hero {
-  margin-top: 60px;
-  margin-right: 40px;
+  margin: 20px 10px;
+ 
+  
   text-align: center;
+}
+p{
+  margin:20px;
 }
 
 .hero-image {
@@ -64,16 +68,18 @@
 #link {
   margin-top: 1em;
 }
-
-@media (min-width: 900px) {
-
+@media (max-width:768px) {
   h1 {
-    font-size: 3.75em;
+    font-size: 1.5em;
   }
 
   p {
-    font-size: 1.25em;
+    font-size: var(--small);
   }
+}
+@media (min-width: 900px) {
+
+  
 
   .hero {
     margin-right: 0;
@@ -90,6 +96,11 @@
 
   .hero-text {
     text-align: left;
+  }
+  .hero-text p{
+    font-size: var(--large);
+    margin: 20px 0px;
+
   }
 
   .hero-btn {

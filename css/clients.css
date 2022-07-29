@@ -1,15 +1,19 @@
-.clients-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-  margin-bottom: 20px;
-  margin-right: 45px;
-  
-}
-.clients-list img {
+.clients {
 
-  max-width: 50px;
+  max-width: 1400px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 170px;
+}
+
+.clients-list img {
+  max-width: 120px;
   margin-bottom: 10px;
 }

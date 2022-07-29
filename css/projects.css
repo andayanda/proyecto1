@@ -1,13 +1,11 @@
 
 .projects {
-  margin-top: 60px;
-  margin-right: 40px;
-  text-align: center;
+  margin-top: 60px;  
 }
 @media (min-width: 900px){
     .projects {
         margin-right: 0;
-                width: 1440px;
+        width: 1440px;
         height: 650px;
       }
     
@@ -15,6 +13,8 @@
         display: flex;
         flex-direction: column;
         margin-left: 170px;
+        /* width: 1100px;
+        height:561px ;  No sé si hay que darle lo que indica el mockup. Fede me lo cambio*/
       }
       h3{
         font-size: 40px;

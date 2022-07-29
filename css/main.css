@@ -5,7 +5,12 @@
     --terciary-color:#292E47;
     --text-color:#514D67;   
     --text-color-inverse:#FFFFFF;
+    /* Font size variables */
+  --small: 15px;
+  --medium: 17px;
+  --large: 20px;
 }
+/*estilos tamaño móvil*/
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +18,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    
     background-color: var(--theme-color);
     color: var(--text-color);
     
@@ -24,17 +29,19 @@ a{
     color: var(--primary-color);
 }
 h1{
-   font-size: 2em;
+   font-size: 60px;
     font-weight: bold;
 }
 h2{
-    font-size: 1.5em;
+    font-size:50px;
     font-weight: bold;
 }
-h3{
-    
-    font-size: 18px;   
+h3{    
+    font-size: 40px;   
 }
 h4{
-    font-size: 16px;
+    font-size: 24px;
+}
+span{
+    font-size: 13px;
 }

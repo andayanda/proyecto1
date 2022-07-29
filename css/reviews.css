@@ -33,3 +33,24 @@
     #white{
         text-align: center;
     }
+    .child-author{ 
+        display:flex;
+        align-items: stretch;
+        align-self: end;
+        justify-self: center;
+        width: 171px;
+        height: 50px;
+    }
+        .child-author img{
+            max-width: 50px;
+        }
+        #blueText{
+            margin-left: 10px;
+            color:#43D2FF;
+            text-align: left;
+        }
+    caption{
+       
+
+        font-size: 13px;
+    }
