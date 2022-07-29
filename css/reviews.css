@@ -1,0 +1,35 @@
+.parent {
+    width: 1300px;
+    height: 620px;
+    display: grid;
+    grid-template-columns:20% 60%  20% ;
+    grid-template-rows:35% 30% 35% ;
+    grid-column-gap: 20px;
+    background-color: var(--terciary-color);
+    color: var(--text-color-inverse);
+    margin-left: 150px;
+    margin-top: 200px;
+   grid-row-gap: 50px;
+    }
+    .child{
+        align-self: end;
+        justify-self:center;
+        width: 60px;
+        height: auto;
+    }
+    .child img{
+        max-width: 60px;
+    }
+    .child-text{
+       padding-top: 100px;
+        justify-content: stretch;
+        width: auto;
+    }
+    .quote{
+        font-size: 24px;
+        color: var(--secondary-color);
+
+    }
+    #white{
+        text-align: center;
+    }

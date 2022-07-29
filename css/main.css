@@ -2,7 +2,8 @@
     --theme-color: #ecf7ff;
     --primary-color: #072AC8;
     --secondary-color: #FFC600;
-    --text-color:#514D67;
+    --terciary-color:#292E47;
+    --text-color:#514D67;   
     --text-color-inverse:#FFFFFF;
 }
 *{
@@ -31,6 +32,7 @@ h2{
     font-weight: bold;
 }
 h3{
+    
     font-size: 18px;   
 }
 h4{
