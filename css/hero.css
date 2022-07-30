@@ -68,6 +68,9 @@ p{
   p {
     font-size: var(--small);
   }
+  .hero{
+    margin-left: 50px;
+  }
   /*formato desktop */
 }
 @media (min-width: 900px) {  

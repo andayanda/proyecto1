@@ -1,5 +1,5 @@
 .parent {
-    width: 1300px;
+    max-width: 1300px;
     height: 620px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -60,4 +60,35 @@
 
 caption {
     font-size: 13px;
+}
+@media (max-width:900px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+height: 400px;
+        max-width: 900px;
+        margin: 0px;
+       
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    .quote{
+        font-size: small;
+    }
+
+    .child{display: none;
+    }
+    .child-text{
+        padding-top: 20px;
+    }
+    .child-author {
+        display: flex;        
+       
+        width: 171px;
+        height: 50px;
+    }
+    
+    
 }

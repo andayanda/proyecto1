@@ -1,6 +1,14 @@
 .services {
   margin-top: 60px;
 }
+/* tablet*/
+@media (max-width:900px){
+  .services-text{
+    background-color: white;
+    margin: 20px;
+  }
+}
+/* desktop*/
 @media (min-width: 900px) {
   .services {
     margin-right: 0;
