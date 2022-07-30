@@ -20,8 +20,7 @@ body{
     font-family: 'Roboto', sans-serif;
     
     background-color: var(--theme-color);
-    color: var(--text-color);
-    
+    color: var(--text-color);    
 }
 
 a{
@@ -38,6 +37,7 @@ h2{
 }
 h3{    
     font-size: 40px;   
+    margin: 70px;
 }
 h4{
     font-size: 24px;
@@ -45,3 +45,19 @@ h4{
 span{
     font-size: 13px;
 }
+.cta{
+    text-align: center;
+    background-color:var(--secondary-color);
+    max-width: 1320px;
+    height: 500px;
+    margin-left: 150px;
+
+}
+.cta p{
+    font-size:var(--large);
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom:20px;
+    } 
+
+

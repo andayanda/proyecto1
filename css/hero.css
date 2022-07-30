@@ -1,18 +1,16 @@
 .hero {
-  margin: 20px 10px;
- 
-  
+  margin: 20px 10px;  
   text-align: center;
+  max-width: 1440px;
 }
 p{
   margin:20px;
 }
-
+/*sección imagenes*/
 .hero-image {
   width: 100%;
   height: auto;
 }
-
 .big-card {
   position: relative;
   left: 10px;
@@ -20,12 +18,10 @@ p{
   max-width: 350px;
   opacity: 0.8;
 }
-
 .hero-card {
   width: 100%;
   max-width: 120px;
 }
-
 .hero-card.ok {
   position: absolute;
   top: 400px;
@@ -35,7 +31,6 @@ p{
   z-index: 1;
   opacity: 0.8;
 }
-
 .hero-card.visa {
   position: absolute;
   top: 500px;
@@ -43,13 +38,12 @@ p{
   z-index: 1;
   opacity: 0.8;
 }
-
+/* Sección texto*/
 .contact {
   display: flex;
   justify-content: space-between;
   margin: 2em;
 }
-
 .hero-btn {
   background-color: var(--primary-color);
   color: var(--text-color-inverse);
@@ -60,51 +54,37 @@ p{
   border-radius: 5px;
   cursor: pointer;
 }
-
 .hero-btn:hover {
   filter: brightness(130%);
 }
-
 #link {
   margin-top: 1em;
 }
+/* formato móvil*/
 @media (max-width:768px) {
   h1 {
     font-size: 1.5em;
   }
-
   p {
     font-size: var(--small);
   }
+  /*formato desktop */
 }
-@media (min-width: 900px) {
-
-  
-
-  .hero {
-    margin-right: 0;
-    margin-top: 100px;
-
-    width: 1440px;
-    height: 650px;
-  }
+@media (min-width: 900px) {  
 
   .hero-container {
     display: flex;
     margin-left: 170px;
   }
-
   .hero-text {
     text-align: left;
   }
   .hero-text p{
     font-size: var(--large);
     margin: 20px 0px;
-
   }
 
   .hero-btn {
-
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     line-height: 130%;
@@ -119,17 +99,14 @@ p{
   .big-card {
     position: relative;
     max-width: fit-content;
-
   }
-
   .hero-card {
     max-width: 190px;
   }
-
   .hero-card.visa {
     position: absolute;
     top: -20px;
- left: -40px;
+    left: -40px;
     z-index: 1;
     opacity: 0.8;
   }
@@ -138,5 +115,4 @@ p{
     bottom: 60px;
   right: -50px;
   }
-
 }
