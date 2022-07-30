@@ -67,22 +67,12 @@ span {
 
 }
 
-.cta p {
-    font-size: var(--large);
-    margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .text-field {
     display: contents;
-
     background-color: white;
 
 }
-
 #envelop {
-
     max-width: 393px;
     max-height: 80px;
     background-image: url(/assets/newsletter/icon/mail.svg);
@@ -91,4 +81,28 @@ span {
     background-repeat: no-repeat;
     padding: 1.1em;
     font-size: 17px;
+}
+/* formato tablet*/
+@media (max-width:900px) {
+    .cta {
+      margin-left: 0px;        
+    }
+
+.cta p {
+    font-size: var(--large);
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#envelop {
+    max-width: 393px;
+    max-height: 80px;
+    background-image: url(/assets/newsletter/icon/mail.svg);
+    border-color: #FFC600;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 1.1em;
+    font-size: 17px;
+}
 }
