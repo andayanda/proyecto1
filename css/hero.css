@@ -51,7 +51,7 @@ p{
   padding: 1em;
   margin-right: 2em;
   font-weight: bold;
-  border-radius: 5px;
+  
   cursor: pointer;
 }
 .hero-btn:hover {
