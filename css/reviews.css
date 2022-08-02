@@ -1,5 +1,9 @@
+.reviews{
+    padding-left: 170px;
+    padding-right: 170px;
+}
 .parent {
-    max-width: 1300px;
+    /* max-width: 1300px; */
     height: 620px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -7,8 +11,8 @@
     grid-column-gap: 20px;
     background-color: var(--terciary-color);
     color: var(--text-color-inverse);
-    margin-left: 150px;
-    margin-top: 200px;
+    /* margin-left: 150px;
+    margin-top: 200px; */
     grid-row-gap: 50px;
 }
 

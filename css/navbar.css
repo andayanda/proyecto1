@@ -5,7 +5,7 @@
     display: flex;    
     height: 122px;
     justify-content: space-between;
-    width: 1440px; 
+    width: 100%vw; 
     padding-top:26px;padding-bottom:26px;
 }
 .nav-container {
@@ -32,6 +32,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    column-gap: 200px
 }
 .nav-contact-link{
     display: none;
@@ -43,6 +44,8 @@
     color: #FFFF;    
     font-size: 17px;
     border: none;
+    margin-right: 170px;
+
   
   font-weight: bold;
     cursor: pointer;

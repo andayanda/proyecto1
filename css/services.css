@@ -1,5 +1,7 @@
 .services {
   margin-top: 60px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 /* tablet*/
 @media (max-width:900px){
@@ -11,14 +13,14 @@
 /* desktop*/
 @media (min-width: 900px) {
   .services {
-    margin-right: 0;
-    width: 1440px;
+    /* margin-right: 0; */
+    /* width: 1440px; */
     height: 650px;
   }
   .services-container {
     display: flex;
     flex-direction: column;
-    margin-left: 170px;
+    /* margin-left: 170px; */
     /* width: 1100px;
         height:561px ;  No sé si hay que darle lo que indica el mockup. Fede me lo cambio*/
   }
@@ -26,7 +28,7 @@
   .services-list {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .circle {
     margin: 30px;

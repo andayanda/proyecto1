@@ -1,5 +1,5 @@
 .clients {
-  max-width: 1400px;
+  width: 100%vw;
 }
 .clients-list {
   display: flex;
@@ -9,6 +9,7 @@
   padding: 0;
   margin-bottom: 20px;
   margin-left: 170px;
+  padding-right: 170px;
 }
 
 .clients-list img {

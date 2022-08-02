@@ -1,10 +1,11 @@
 .footer{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-left: 0;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
     max-height: 242px;
-    max-width: 1440px;   
+  
     margin-top: 150px; 
     margin-bottom: 30px;
 }
@@ -12,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 170px;  
+    
 
 }
 .footer-logo a{
