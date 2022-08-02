@@ -2,7 +2,8 @@
     --theme-color: #ecf7ff;
     --primary-color: #072AC8;
     --secondary-color: #FFC600;
-    --terciary-color: #292E47;
+    --terciary-color: #292E47;/*dark color*/
+    --neutral-color:#6B708D;
     --text-color: #514D67;
     --text-color-inverse: #FFFFFF;
     /* Font size variables */
@@ -73,8 +74,7 @@ span {
 
 }
 #envelop {
-    max-width: 393px;
-    max-height: 80px;
+  
     background-image: url(/assets/newsletter/icon/mail.svg);
     border-color: #FFC600;
     background-position: left;
@@ -83,9 +83,25 @@ span {
     font-size: 17px;
 }
 /* formato tablet*/
-@media (max-width:900px) {
+@media (max-width:820px) {
+    h3{
+        font-size: 1.5em;
+        margin: 20px;
+    }
+    h4{
+        font-size: 1.2em;
+        margin: 15px;
+    }
+    a{ 
+        font-size: 1.2em;
+        margin: 15px;
+
+    }
     .cta {
-      margin-left: 0px;        
+     max-width: 90%;
+     height: 300px;
+     margin: 10%;   
+     padding: 20px; 
     }
 
 .cta p {
