@@ -1,12 +1,4 @@
-.hero {
-  /* margin: 20px 10px;  
-  text-align: center; */
-  max-width: 1440px;
-  max-height: 650px;
-}
-p{
-  margin:20px;
-}
+
 /*sección imagenes*/
 .hero-image {
   width: 100%;
@@ -82,10 +74,10 @@ p{
   .hero-text {
     text-align: left;
   }
-  .hero-text p{
+  /* .hero-text p{
     font-size: var(--large);
     margin: 20px 0px;
-  }
+  } */
 
   .hero-btn {
     font-family: "Roboto", sans-serif;

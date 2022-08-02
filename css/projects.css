@@ -1,6 +1,16 @@
 .projects {
   margin-top: 60px;
 }
+.post{ 
+  max-width: 1100px;
+  margin-top: 140px;
+  margin-left: 170px
+}
+.post-content{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* formato móvil*/
 @media (max-width:480px) {
