@@ -1,5 +1,5 @@
 .logo img{
-   width: 60px;
+   width: 61px;
 }
 .header {
     display: flex;    
@@ -14,9 +14,7 @@
     height: 70px;   
     align-items: center;   
 }
-.logo img{
-    width: 200px;
-}
+
 .nav-container a {
     text-decoration: none;
     color:var(--neutral-color);

@@ -21,9 +21,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
     background-color: var(--theme-color);
     color: var(--text-color);
+   
 }
 
 a {
@@ -65,13 +65,11 @@ span {
     height: 500px;
     margin-left: 150px;
     padding-top: 80px;
-
 }
 
 .text-field {
     display: contents;
     background-color: white;
-
 }
 #envelop {
   
@@ -111,7 +109,7 @@ span {
     margin-bottom: 20px;
 }
 
-#envelop {
+/* #envelop {
     max-width: 393px;
     max-height: 80px;
     background-image: url(/assets/newsletter/icon/mail.svg);
@@ -120,5 +118,5 @@ span {
     background-repeat: no-repeat;
     padding: 1.1em;
     font-size: 17px;
-}
+} */
 }
