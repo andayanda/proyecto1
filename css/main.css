@@ -61,12 +61,12 @@ span {
     /* margin: 20px 10px;  
     text-align: center; */
      width: 100%vw;
-    max-height: 650px;
+    /* max-height: 650px; */
     padding-left: 170px;
     padding-right: 170px;
   }
   p{
-    margin:20px;
+    /* margin:20px; */
   }
 .cta-form {
     height: 80px;
@@ -119,9 +119,8 @@ span {
 
 .cta p {
     font-size: var(--large);
-    margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin:20px 0;
+    
 }
 
 /* #envelop {

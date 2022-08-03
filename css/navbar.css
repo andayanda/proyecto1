@@ -32,7 +32,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    column-gap: 200px
+    column-gap: 100px
 }
 .nav-contact-link{
     display: none;

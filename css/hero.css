@@ -1,4 +1,7 @@
-
+.hero-container {
+  display: flex;
+ 
+}
 /*sección imagenes*/
 .hero-image {
   width: 100%;
@@ -67,10 +70,7 @@
 }
 @media (min-width: 900px) {  
 
-  .hero-container {
-    display: flex;
-    margin-left: 170px;
-  }
+  
   .hero-text {
     text-align: left;
   }
