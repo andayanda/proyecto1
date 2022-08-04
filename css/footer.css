@@ -53,3 +53,15 @@
 .footer p{
     margin: 0px;
 }
+@media(max-width:480px){
+    .footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin:0;
+       
+        max-height: 100%;
+      
+        
+    }
+}

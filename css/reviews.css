@@ -90,3 +90,66 @@ caption {
     }    
     
 }
+@media  (max-width: 480px){
+    .reviews{
+       padding: 0;
+       margin-top: 450px;
+    }
+    .parent {
+        
+        height: 300px;
+        max-width: 95%;
+        padding: 5%;
+        margin: auto;
+        background-color: var(--terciary-color);
+        color: var(--text-color-inverse);}
+     
+    
+    .child {
+        display: none;
+    }
+    
+    .child img {
+        max-width: 60px;    }
+    
+    .child-text {
+     
+        justify-content: stretch;
+        width: auto;
+    }
+    
+    .quote {
+        font-size: 14px;
+        color: var(--secondary-color);
+        text-align: center;
+        padding-top: 2em;    
+    }
+    
+    #white {
+        text-align: center;
+    }
+    
+    .child-author {
+        display: flex;
+        align-items: stretch;
+        align-self: end;
+        justify-self: center;
+        width: 171px;
+        height: 50px;
+    }
+    
+    .child-author img {
+        max-width: 50px;
+    }
+    
+    #blueText {
+        margin-left: 10px;
+        color: #43D2FF;
+        text-align: left;
+    }
+    
+    caption {
+        font-size: 13px;
+    }
+    
+}

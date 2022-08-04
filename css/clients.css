@@ -1,5 +1,7 @@
 .clients {
   width: 100%vw;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 .clients-list {
   display: flex;
@@ -7,15 +9,29 @@
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  margin-bottom: 20px;
-  margin-left: 170px;
-  padding-right: 170px;
+  margin-bottom: 20px; 
 }
-
 .clients-list img {
   max-width: 120px;
   margin-bottom: 10px;
 }
-@media (max-width:900px){
- .clients-list{ margin: 20px;}
+@media  (max-width: 480px){
+  .clients {
+    width: 100%vw;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .clients-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; 
+  }
+  .clients-list img {
+    max-width: 70%;
+    margin-bottom: 10px;
+  }
+
 }
