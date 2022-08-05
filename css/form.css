@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box
+}
+
+/* Add padding to containers */
+.container {
+    padding-bottom: 1em;
+}
+
+label {
+    font-size: var(--large);
+}
+
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+.form-group label {
+    display:none;
+}
+
+.form-label {
+    display: flex;
+    gap: 47%;
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 25px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: var(--neutral-color);
+    opacity: 0.5;
+    font-size: var(--medium);
+
+}
+::placeholder {
+    color: black;
+   
+}
+/* style for small screens*/
+@media (max-width:480px){    
+
+* {
+    box-sizing: border-box
+}
+h1{
+    font-size: 1.5em;
+}
+/* Add padding to containers */
+
+label {
+    display: block;
+    font-size: var(--small);
+}
+
+.form-group {
+    flex-direction: column;
+    
+}
+
+.form-label {
+  display: none;   
+}
+.form-group label {
+    display:flex;
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    padding: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    color: white
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 1.5em;
+    /* margin: 25px 0 22px 0; */
+    display: inline-block;
+    border: none;
+    background: var(--neutral-color);
+    opacity: 0.5;
+    font-size: var(--xsmall);
+
+}}
+@media (max-width:820px){    
+
+    * {
+        box-sizing: border-box
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    /* Add padding to containers */
+    
+    label {
+        font-size: var(--small);
+    }
+/*     
+    .form-group {
+        flex-direction: column;
+        
+    }
+     .form-group label{
+        display:none
+    }
+    
+    .form-label {
+        display: flex;
+       flex-direction: column;
+       gap: 0;
+       
+    }
+    
+    .submit {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: var(--primary-color);
+        padding: 1.5em;
+        cursor: pointer;
+        text-align: center;
+        color: white
+    }
+    
+    /* Full-width input fields */
+    input[type=text],
+    input[type=password],
+    textarea {
+        width: 100%;
+        padding: 1.5em;
+        /* margin: 25px 0 22px 0; */
+        display: inline-block;
+        border: none;
+        background: var(--neutral-color);
+        opacity: 0.5;
+        font-size: var(--xsmall);
+    
+    }} */

@@ -10,40 +10,268 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/hero.css">
     <link rel="stylesheet" href="/css/clients.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/reviews.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <!-- <script src="https://kit.fontawesome.com/d54c781f8d.js" crossorigin="anonymous"></script> -->
     <title>Circle Web Design</title>
 </head>
 
 <body>
-    
+    <header class="header">
+        <nav class="nav-container">
+
+            <a class="logo" href="index.html">
+                <img src="/assets/logos/circle.svg" alt="logo">
+            </a>
+            <button class="toogleBtn ">
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    </div>
+                 
+            </button>
+
+            <ul class="nav-menu" id="visible">
+                <li class="nav-menu-item" class="active"><a href="index.html">Home</a></li>
+                <li class="nav-menu-item" class="active"><a href="#projects">Projects</a></li>
+                <li class="nav-menu-item" class="active"><a href="#services">Services</a></li>
+                <li class="nav-contact-link" class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+        <button class="nav-btn" onclick="location.href='contact.html'" type="button">
+            Contact Us
+        </button>
+
+    </header>
+
+
     <section class="hero">
         <section class="hero-container">
-        <div class="hero-text">
-            <h1>Empower Your Business With Stunning Design!</h1>
-            <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile
-                apps.</p>
-      
-       
-            <button class="hero-btn">Get in touch</button>
-            <a id="link" href="#">See our work</a>
-        </div>
-        <div class="hero-image">
-            <img src="/assets/hero-section/card-2.png" alt="Project accepted" class="hero-card ok">
-            <img src="/assets/hero-section/hero-image.png" alt="Happy customer" class="big-card">
-            <img src="/assets/hero-section/card-1.png" alt="Credit card accepted " class="hero-card visa">
-        </div>
-    </section>   
+            <div class="hero-text">
+                <h1>Empower Your Business With Stunning Design!</h1>
+                <h5>Circle is a digital design and development studio. We design and develop astonishing websites and
+                    mobile
+                    apps.</h5>
+
+                <button class="hero-btn" onclick="location.href='contact.html'" type="button">Get in touch</button>
+                <a id="link" href="projects.html">See our work</a>
+            </div>
+            <div class="hero-image">
+                <img src="/assets/hero-section/card-2.png" alt="Project accepted" class="hero-card visa">
+                <img src="/assets/hero-section/hero-image.png" alt="Happy customer" class="big-card">
+                <img src="/assets/hero-section/card-1.png" alt="Credit card accepted " class="hero-card" id="ok">
+                <!-- <button class="hero-btn mobile" onclick="location.href='contact.html'" type="button">Get in touch</button> -->
+                <a id="link-mobile" href="projects.html">See our work</a>
+            </div>
+        </section>
     </section>
     <section class="clients">
         <ul class="clients-list">
-        <li class="clients-item"><img src="/assets/logos/airbnb-logo.svg" alt=""></li>
-        <li class="clients-item"><img src="/assets/logos/google-logo.svg" alt=""></li>
-        <li class="clients-item"><img src="/assets/logos/microsoft-logo.svg" alt=""></li>
-        <li class="clients-item"><img src="/assets/logos/fedex-logo.svg" alt=""></li>
-        <li class="clients-item"><img src="/assets/logos/amazon-logo.svg" alt=""></li>
-    </ul>
+            <li class="clients-item"><img src="/assets/logos/airbnb-logo.svg" alt=""></li>
+            <li class="clients-item"><img src="/assets/logos/google-logo.svg" alt=""></li>
+            <li class="clients-item"><img src="/assets/logos/microsoft-logo.svg" alt=""></li>
+            <li class="clients-item"><img src="/assets/logos/fedex-logo.svg" alt=""></li>
+            <li class="clients-item"><img src="/assets/logos/amazon-logo.svg" alt=""></li>
+        </ul>
     </section>
+    <section class="projects">
+        <section class="projects-container">
+            <h3 id="projects" class="projects-title">
+                Recent Projects
+            </h3>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <img src="/assets/projects-section/1.jpg" alt="project Simplify">
+                    <div class="projects-text">
+                        <h4>Simplify</h4>
+                        <p>UI Design & App Development</p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                </li>
+                <li class="projects-item">
+                    <img src="/assets/projects-section/2.jpg" alt="project dashcoin">
+                    <div class="projects-text">
+                        <h4>Dashcoin</h4>
+                        <p>Web Development</p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                </li>
+                <li class="projects-item tercera">
+                    <img src="/assets/projects-section/6.jpg" alt="project Vectorify">
+                    <div class="projects-text">
+                        <h4>Vectorify</h4>
+                        <p>User Experience Design</p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="reviews">
+        <div class="parent">
+
+            <div class="child">
+                <img src="/assets/reviews/gafas.png" alt="">
+            </div>
+            <div class="child-text">
+                <h3 id="white">Hear What Our Clients Have to Say</h3>
+                <p class="quote">“Circle helped us through every stage of our startup. We really enjoyed working with
+                    you.”</p>
+            </div>
+            <div class="child">
+                <img src="/assets/reviews/risitas.png" alt="">
+            </div>
+            <div class="child">
+                <img src="/assets/reviews/barbas.png" alt=""></div>
+            <div class="child-author">
+                <img src="/assets/reviews/woman2.png" alt="Clienta feliz">
+                <a
+                    href="https://pixabay.com/es/users/dzeeshah-481870/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1274360"></a>
+                <a
+                    href="https://pixabay.com/es//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1274360"></a>
+                <p id="blueText">Kristin Watson
+                    <span style="color: white;">Booking</span>
+                </p>
+            </div>
+            <div class="child"> <img src="/assets/reviews/rayas.png" alt=""></div>
+
+        </div>
+    </section>
+    <section class="services">
+        <section class="services-container">
+            <h3 id="services">
+                Our Services
+            </h3>
+            <ul class="services-list">
+                <li class="services-item">
+                    <div class="circle">
+                        <img src="/assets/services-section/1.svg" alt="project Simplify">
+                    </div>
+                    <div class="services-text">
+                        <h4>User Interface Design</h4>
+                        <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                        <a href="services.html">Learn more</a>
+                    </div>
+                </li>
+                <li class="services-item">
+                    <div class="circle">
+                        <img src="/assets/services-section/2.svg" alt="project Simplify">
+                    </div>
+                    <div class="services-text">
+                        <h4>User Experience Design</h4>
+                        <p>Circle always focuses on delivering the best user experience to your customers.</p>
+                        <a href="services.html">Learn more</a>
+                    </div>
+                </li>
+                <li class="services-item tercera">
+                    <div class="circle">
+                        <img src="/assets/services-section/3.svg" alt="project Simplify">
+                    </div>
+                    <div class="services-text">
+                        <h4>Application Development</h4>
+                        <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+                        <a href="services.html">Learn more</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="cta">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <form action="" method="post" class="cta-form">
+            <div class="text-field">
+                <input id="envelop" type="text" name="email" placeholder="   Please enter your Email">
+            </div>
+            <input class="hero-btn" type="submit" value="Suscribe me">
+        </form>
+    </section>
+    <section class="footer">
+        <div class="footer-info">
+            <a class="footer-logo" href="index.html">
+                <img src="/assets/logos/circle.svg" alt="logo">
+            </a>
+            <p>2972 Westheimer Rd. Santa Ana, </p>
+            <p>Illinois 85486</p>
+
+        </div>
+
+        <ul class="footer-list">
+            <li class="footer-item" class="active">
+                <a href="#">Team
+                </a>
+            </li>
+            <li class="footer-item" class="active">
+                <a href="">
+                    Press
+                </a>
+            </li>
+
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-item" class="active">
+                <a href="#"> Services
+                </a>
+            </li>
+            <li class="footer-item" class="active">
+                <a href="">
+                    Projects
+                </a>
+            </li>
+        </ul>
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-item" class="active">
+                <a href="">
+                    About Us
+                </a>
+            </li>
+            <li class="footer-item" class="active">
+                <a href="">
+                    Privacy Policy
+                </a>
+            </li>
+        </ul>
 
 
+
+    </section>
+    <div class="footer-menu">
+        <ul class="clients-list">
+            <li class="clients-item">
+                <a href="#">Team
+                </a>
+            </li>
+            <li class="clients-item">
+                <a href="">
+                    Press
+                </a>
+            </li>
+            <li class="clients-item"> <a href="#"> Services
+                </a>
+            </li>         
+        </ul>
+        <ul class="clients-list">
+            <li class="clients-item">
+                <a href="#"> Projects
+                </a>
+            </li>
+            <li class="clients-item">
+                <a href="">
+                    About Us
+                </a>
+            </li>
+            <li class="clients-item"> <a href="#"> Privacy Policy
+                </a>
+            </li>        
+        </ul>
+    </div>
 
 
     <script src="/js/index.js"></script>
