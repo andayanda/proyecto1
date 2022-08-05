@@ -72,7 +72,7 @@
     display: none;
   }
   .fa-solid{
-    display: none;
+    display: block;
   }
   .hero-text {
     text-align: left;
@@ -116,6 +116,9 @@
 }
 /* formato movil*/
 @media (max-width:480px) {
+  .nav-menu .visible{
+    left: 0;
+  }
   .fa-solid{
     display: block;
   }

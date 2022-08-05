@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/clients.css">
     <title>Projects</title>
 </head>
 
@@ -21,22 +22,30 @@
             <a class="logo" href="index.html">
                 <img src="/assets/logos/circle.svg" alt="logo">
             </a>
-            <button id="toogleBtn">
-                <i class="fa-solid fa-bars"></i>
+            <button class="toogleBtn ">
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    </div>
+                 
             </button>
 
-            <ul class="nav-menu" class="nav-menu_visible">
+            <ul class="nav-menu" id="visible">
                 <li class="nav-menu-item" class="active"><a href="index.html">Home</a></li>
-                <li class="nav-menu-item" class="active"><a href="projects.html">Projects</a></li>
+                <li class="nav-menu-item" class="active"><a href="#projects">Projects</a></li>
                 <li class="nav-menu-item" class="active"><a href="#services">Services</a></li>
-                <!-- <li class="nav-contact-link"class="active"><a href="contact.html">Contact</a></li> -->
+                <li class="nav-contact-link" class="active"><a href="contact.html">Contact</a></li>
             </ul>
 
         </nav>
-        <button class="nav-btn">Contact Us
+        <button class="nav-btn" onclick="location.href='contact.html'" type="button">
+            Contact Us
         </button>
 
     </header>
+
     <section class="hero">
         <div class="hero-container">
             <h1 id="post ">Simplify</h1>
@@ -163,6 +172,44 @@
 
 
     </section>
+    <div class="footer-menu">
+        <ul class="clients-list">
+            <li class="clients-item">
+                <a href="#">Team
+                </a>
+
+            </li>
+            <li class="clients-item">
+                <a href="">
+                    Press
+                </a>
+
+            </li>
+            <li class="clients-item"> <a href="#"> Services
+                </a>
+
+            </li>
+
+           
+
+        </ul>
+        <ul class="clients-list">
+            <li class="clients-item">
+                <a href="#"> Projects
+                </a>
+
+            </li>
+            <li class="clients-item">
+                <a href="">
+                    About Us
+                </a>
+
+            </li>
+            <li class="clients-item"> <a href="#"> Privacy Policy
+                </a>
+            </li>           
+        </ul>
+    </div>
     <script src="/js/index.js"></script>
 
 </body>

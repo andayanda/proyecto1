@@ -65,6 +65,7 @@ h1{
 /* Add padding to containers */
 
 label {
+    display: block;
     font-size: var(--small);
 }
 
