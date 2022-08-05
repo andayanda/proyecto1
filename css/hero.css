@@ -127,7 +127,7 @@
   }
   h1{
     font-size: 1em;
-    margin:5% 0;
+    margin:0;
   }
   h5{
     font-size: 0.9em;
@@ -170,23 +170,31 @@
   .contact {
     display: flex;
     justify-content: space-between;
-    margin: 2em;
+    margin: 1em;
   }
   .hero-btn {
+    margin: 1em;
     font-size: small;
-    border: none;
-  
-    font-weight: bold;
-    
+    border: none;  
+    font-weight: bold;    
     cursor: pointer;
+  }
+  #mobile{
+    display: block;
+    font-size: small;
+    margin-top: 1em;
+    font-size: small;
+
   }
   .hero-btn:hover {
     filter: brightness(130%);
   }
   #link {
+    display: none;
     margin-top: 1em;
     font-size: small;
    
   }
+
   
 }

@@ -128,5 +128,18 @@ span {
    h3{
     font-size: medium;
    }
+   .cta {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;   
+   
+   }
+   h3{
+    font-size: 1.2em;
+    margin: 1em;
+}
+.cta-form {
+    height: 80px;
+}
 }
 

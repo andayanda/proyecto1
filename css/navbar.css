@@ -107,7 +107,8 @@
         width: 50px;
      }
      .header {      
-        height: 100px;                     
+        height: 70px;   
+        padding-top: 0;                  
      }     
      .nav-container {
         padding: 20px;
@@ -146,8 +147,13 @@
          justify-content: space-evenly;
          align-items: center;
          margin-left: 0px;
-         right:0;
-    
+         right:0;   
    
+   }
+   .hero-text{
+    width:60%;
+   }
+   .big-card{
+    width:60%;
    }
 }
