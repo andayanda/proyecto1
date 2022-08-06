@@ -158,6 +158,7 @@
         width: 50%;
         height: 70vh;
         color: white;
+        z-index: 10;
 
     }
 
@@ -190,8 +191,7 @@
     /*icono de hamburguesa*/
     .container {
         display: inline-block;
-        margin-left: 260px;
-
+        margin-left: 200px;
         cursor: pointer;
     }
 
