@@ -158,6 +158,7 @@
         width: 50%;
         height: 70vh;
         color: white;
+        z-index: 10;
 
     }
 
