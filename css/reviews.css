@@ -12,7 +12,7 @@
     grid-column-gap: 20px;
     background-color: var(--terciary-color);
     color: var(--text-color-inverse);
-    margin-top: 170px;
+    /* margin-top: 170px; */
     grid-row-gap: 50px;
 }
 

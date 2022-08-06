@@ -1,5 +1,6 @@
 .clients {
   width: 100%;
+  margin-top: 100px;
   margin-left: 170px;
   margin-right: 170px;
 }
@@ -18,8 +19,7 @@
 @media  (max-width: 480px){
   .clients {
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:20px;
   }
   .clients-list {
     display: flex;

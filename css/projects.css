@@ -1,5 +1,5 @@
 .projects {
-  height: 650px;
+ 
   margin-top: 60px;
   padding-left: 170px;
   padding-right: 170px;
@@ -130,18 +130,17 @@ p {
   }
   .projects-text {
     width: 90%;  
+    padding: 1em;
    
 
   }
   p{
     font-size: var(--medium);
-    margin: 1em;
    
   }
   a{
     display: block;
-    margin: 0.5em;
-    
+    margin: 0.5em 0.5em;    
     font-size: var(--small);
    
   }
