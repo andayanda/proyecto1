@@ -3,9 +3,8 @@
 }
 
 .header {
-    display: flex;
+  
     height: 122px;
-    justify-content: space-between;
 
     width: 100%;
     padding-top: 52px;
@@ -15,7 +14,8 @@
 
     display: flex;
     height: 52px;
-    align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .nav-container a {
@@ -23,7 +23,7 @@
     color: var(--neutral-color);
     font-family: "Roboto", sans-serif;
     font-size: 17px;
-    margin-left: 170px;
+    
 }
 
 .nav-container a:hover,
@@ -35,7 +35,8 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    column-gap: 100px
+    gap: 60px;
+    
 }
 
 .nav-contact-link {
@@ -49,7 +50,7 @@
     color: #FFFF;
     font-size: 17px;
     border: none;
-    margin-right: 170px;
+   
 
 
     font-weight: bold;

@@ -33,10 +33,7 @@
     justify-content: space-between;
    
 }
-.footer-item{
-    margin-bottom: 40%;
 
-}
 .footer a{
     text-decoration: none;
     color:var(--neutral-color);
@@ -90,3 +87,10 @@
 
 }
 }
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 90px;
+    grid-row-gap: 0px;
+    }
