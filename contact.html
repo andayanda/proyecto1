@@ -56,13 +56,12 @@
             </ul>
 
         </nav>
-        <!-- <button class="nav-btn" onclick="location.href='contact.html'" type="button">
-            Contact Us
-        </button> -->
+      
 
     </header>
     <section class="hero">
-        <form action="#">
+        <form  action="https://formspree.io/f/xdojoznv"
+        method="POST">
             <div class="container">
                 <h1>Contact Us</h1>
 
@@ -79,13 +78,13 @@
             <div class="form-group">
 
                 <label for="ename">Email</label>
-                <input type="text" id="email" name="email" placeholder="Enter your email address">
+                <input type="text" id="email" name="email" required  placeholder="Enter your email address">
                 <label for="phone">Phone</label>
 
-                <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+                <input type="text" id="phone" name="phone" required placeholder="Enter your phone number">
             </div>
             <label for="subject"> Message</label>
-            <textarea id="subject" name="subject" placeholder="Write your message here ...."
+            <textarea id="subject" name="subject" required placeholder="Write your message here ...."
                 style="height:200px"></textarea>
 
             <button type="submit" class="submit">Submit</button>
